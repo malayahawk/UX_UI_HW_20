@@ -1,53 +1,80 @@
 .content {
-    padding: 50px;
-  }
+    padding: 100px;
+}
 
-  .cardContainer {
+.cardContainer {
     text-align: center;
-  }
+}
 
-  .cardContainer {
+.cardContainer {
     margin-top: 20px;
-  }
-  .card {
-    margin: 0 auto;
-  }
+}
 
-.jumbotron{
+.card {
+    margin: 0 auto;
+}
+
+.jumbotron {
 
     display: flex;
-    flex-wrap:nowrap;
-  }
-  
+    flex-wrap: nowrap;
+}
 
-  .container{
+
+.container {
     border-style: solid;
+    border-color: white;
     width: 69%;
     justify-content: center;
     align-items: center;
-    text-align:justify;
-    display:inline-block;
+    text-align: justify;
+    display: inline-block;
     padding: 50px;
-  }
-  .container2{
+}
+
+.display-4 {
+    color: white;
+}
+
+.lead {
+    color: white;
+}
+
+.container2 {
     border-style: solid;
+    border-color: white;
     width: 30%;
     justify-content: center;
     align-items: center;
-    text-align:justify;
-    display:inline-block;
+    text-align: justify;
+    display: inline-block;
     padding: 50px;
-    
-  }
 
-.card-body{
-    border-style: solid;
 }
 
-.container-fluid{
-    padding: 100px;
+.card {
+    border-radius: 0;
+    margin: 0.3em;
 }
- 
-.nav-link{
-    color: black;
+
+
+
+
+.nav-link {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.caseStudyphoto {
+    background-image: url(../images/caseStudypng.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: calc(70vh - 25px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
