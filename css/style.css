@@ -1,0 +1,53 @@
+.content {
+    padding: 50px;
+  }
+
+  .cardContainer {
+    text-align: center;
+  }
+
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+
+.jumbotron{
+
+    display: flex;
+    flex-wrap:nowrap;
+  }
+  
+
+  .container{
+    border-style: solid;
+    width: 69%;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+    display:inline-block;
+    padding: 50px;
+  }
+  .container2{
+    border-style: solid;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+    display:inline-block;
+    padding: 50px;
+    
+  }
+
+.card-body{
+    border-style: solid;
+}
+
+.container-fluid{
+    padding: 100px;
+}
+ 
+.nav-link{
+    color: black;
+}
